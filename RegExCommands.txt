@@ -1,0 +1,26 @@
+﻿\ → after this it is a special character
+\b → word boundary -> sanu\b
+\B → not a boundary
+\d → digit
+\D → not a digit
+\n → new line
+\s → space
+\S → not a space
+\t → tab spaces
+\v → vertical tab(new line)
+\w → word
+\W → not a word
+^  → beginning of the string
+$ → end of the string
+* → 0 or More
++ → 1 or More
+? → 0 or One
+. → the decimal point → select characters
+(x) → can select group of words
+x|y → or → (v|b)
+{n} → number counts
+{n,} → n or more
+{n,m} → at least or at most range
+[xyz] → character set [a-z]/[.]
+[^xyz] → not xyz
+, -> select All 
